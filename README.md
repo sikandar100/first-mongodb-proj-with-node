@@ -45,9 +45,9 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-##private route such as (productsByUser(userId) access in app
+## private route such as "productsByUser" access
 you need to pass the token (which you get in upon successfull login) in HTTP request header named as authorization with bearer. 
-#example of header
+# example of header
 {
   "authorization": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNjFiNzhmY2I4MmY5ZmVlODVlNjhjMDdkIiwiZW1haWwiOiJzaWthbmRhckBnbWFpbC5jb20ifSwiaWF0IjoxNjM5NDMxOTA3LCJleHAiOjE2NDAwMzY3MDd9.J1V5zfbpHBLDUEjE_TALWPgALVjEmtSVUdDT32Zur9E"
 }
