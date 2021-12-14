@@ -1,0 +1,20 @@
+type ProductsUser {
+  _id: ID
+  productId: ID
+  userId: ID
+  quantity: Int
+}
+
+input CreateProductsUserInput {
+  productId: ID
+  userId: ID
+  quantity: Int
+}
+
+type Query {
+  productsByUser(userId: ID): [Product]!
+}
+
+type Mutation {
+  buyProduct(createProductsUserInput: CreateProductsUserInput!): ProductsUser!
+}
