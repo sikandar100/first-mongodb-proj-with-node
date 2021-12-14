@@ -45,28 +45,16 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
+##private route such as (productsByUser(userId) access in app
+you need to pass the token (which you get in upon successfull login) in HTTP request header named as authorization with bearer. 
+#example of header
+{
+  "authorization": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNjFiNzhmY2I4MmY5ZmVlODVlNjhjMDdkIiwiZW1haWwiOiJzaWthbmRhckBnbWFpbC5jb20ifSwiaWF0IjoxNjM5NDMxOTA3LCJleHAiOjE2NDAwMzY3MDd9.J1V5zfbpHBLDUEjE_TALWPgALVjEmtSVUdDT32Zur9E"
+}
 
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
