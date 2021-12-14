@@ -44,6 +44,9 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+## playgraound access link upon successfully run the project
+# localhost
+http://localhost:3000/graphql
 
 ## private route such as "productsByUser" access
 you need to pass the token (which you get in upon successfull login) in HTTP request header named as authorization with bearer. 
